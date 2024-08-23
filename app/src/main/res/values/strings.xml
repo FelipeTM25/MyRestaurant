@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">MyRestaurant</string>
+    <string name="app_menu">Conoce nuestro menú</string>
+    <string name="app_sede">Visita nuestras sedes</string>
+    <string name="app_reserva">Realiza tu reserva</string>
+    <string name="app_pedido">Realiza tu pedido</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="califica">Calificanos</string>
+    //NUMERO WHATSAPP
+    <string name="numero_whatsapp">+57 3017379730</string>
+    //MENSAJES
+    <string name="mensaje_pedido">Hola, me gustaría realizar mi pedido🥘🍝</string>
+    <string name="mensaje_reserva">Hola, me gustaría hacer una reserva</string>
+    //ENTRADAS
+    <string name="entrada1">Sopas</string>
+    <string name="entrada2">Empanadas</string>
+    <string name="entrada3">Patacones</string>
+
+    <string name="opc_entrada1">Sancocho, Consome, Frijoles</string>
+    <string name="opc_entrada2">Carne, Pollo , Paisas</string>
+    <string name="opc_entrada3">Con hogao, Guacamole</string>
+
+    <string name="prec_entrada1">$ 10.000</string>
+    <string name="prec_entrada2">$ 8.000</string>
+    <string name="prec_entrada3">$ 12.000</string>
+    //PLATO FUERTE
+    <string name="plato_fuerte1">Bandeja Paisa</string>
+    <string name="plato_fuerte2">Arroz con Pollo</string>
+    <string name="plato_fuerte3">Cazuela de Mariscos</string>
+
+    <string name="opc_plato_fuerte1">Frijoles, Chicharrón, Huevo</string>
+    <string name="opc_plato_fuerte2">Arroz, Pollo, Ensalada</string>
+    <string name="opc_plato_fuerte3">Camarones, Pulpo, Pescado</string>
+
+    <string name="prec_plato_fuerte1">$ 25.000</string>
+    <string name="prec_plato_fuerte2">$ 18.000</string>
+    <string name="prec_plato_fuerte3">$ 30.000</string>
+    //BEBIDAS
+    <string name="bebida1">Jugo de Naranja</string>
+    <string name="bebida2">Gaseosa</string>
+    <string name="bebida3">Limonada de Coco</string>
+
+    <string name="opc_bebida1">Natural, Con azúcar, Sin azúcar</string>
+    <string name="opc_bebida2">Coca Cola, Pepsi, Sprite</string>
+    <string name="opc_bebida3">Natural, Con azúcar, Sin azúcar</string>
+
+    <string name="prec_bebida1">$ 5.000</string>
+    <string name="prec_bebida2">$ 4.000</string>
+    <string name="prec_bebida3">$ 6.000</string>
+    //POSTRES
+    <string name="postre1">Torta</string>
+    <string name="postre2">Flan de Caramelo</string>
+    <string name="postre3">Helado</string>
+
+    <string name="opc_postre1">Vainilla, Fresa, Chocolate</string>
+    <string name="opc_postre2">Con crema, Con frutas, Solo</string>
+    <string name="opc_postre3">Vainilla, Chocolate, Fresa</string>
+
+    <string name="prec_postre1">$ 7.000</string>
+    <string name="prec_postre2">$ 6.000</string>
+    <string name="prec_postre3">$ 5.000</string>
+    //LICORES
+    <string name="licor1">Ron</string>
+    <string name="licor2">Whisky</string>
+    <string name="licor3">Vino Tinto</string>
+
+    <string name="opc_licor1">Blanco, Añejo, Oscuro</string>
+    <string name="opc_licor2">12 años, 18 años, 21 años</string>
+    <string name="opc_licor3">Seco, Semi-seco, Dulce</string>
+
+    <string name="prec_licor1">$ 20.000</string>
+    <string name="prec_licor2">$ 30.000</string>
+    <string name="prec_licor3">$ 25.000</string>
+    <string name="title_activity_calificacion">CalificacionActivity</string>
+
+</resources>

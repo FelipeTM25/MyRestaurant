@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="El Fogón Urbano"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#068284"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/descarga" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:backgroundTint="#068284"
+            android:drawableLeft="@drawable/menu"
+            android:onClick="abrirMenu"
+            android:text="@string/app_menu" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:backgroundTint="#068284"
+            android:drawableLeft="@drawable/ordenar"
+            android:onClick="abrirPedido"
+            android:text="@string/app_pedido" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:backgroundTint="#068284"
+            android:drawableLeft="@drawable/reserva"
+            android:onClick="abrirReserva"
+            android:text="@string/app_reserva" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:backgroundTint="#068284"
+            android:drawableLeft="@drawable/mapss"
+            android:onClick="abrirSedes"
+            android:text="@string/app_sede" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:backgroundTint="#068284"
+            android:drawableLeft="@drawable/rsz_1estrellas"
+            android:onClick="abrirCalificion"
+            android:text="@string/califica" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
